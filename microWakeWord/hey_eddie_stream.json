@@ -7,5 +7,6 @@
     "version": 2,
     "micro": {
         "probability_cutoff": 0.5,
+        "feature_step_size": 10
     }
 }
