@@ -1,0 +1,12 @@
+{
+    "type": "micro",
+    "wake_word": "Hey Eddie",
+    "author": "Teagan Glenn",
+    "website": "https://github.com/Teagan42/WakeWords",
+    "model": "./hey_eddie_stream.tflite",
+    "version": 1,
+    "micro": {
+        "probability_cutoff": 0.5,
+        "sliding_window_average_size": 10
+    }
+}
